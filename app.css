@@ -1,0 +1,42 @@
+body {
+    font-family: 'chatype-regular';
+
+    background-color: rgb(211, 211, 211);
+}
+
+.boxes {
+    display: inline-block;
+
+    /* MARGIN. */
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+
+    /* PADDING. */
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+
+    /* BORDER. */
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.775);
+    border-radius: 6px;
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+
+a {
+    text-decoration: none; /* Removes default underline text styling. */
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    font-weight: 800;
+    color: rgb(218, 165, 32);
+}
+

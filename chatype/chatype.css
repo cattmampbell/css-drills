@@ -1,0 +1,149 @@
+/*__________* <----- CSS3 Web Safe Fonts Reference @ https://www.w3schools.com/css/css3_fonts.asp -----> *__________*/ 
+/*__________* <----- Download from Chatype @ http://chatype.com -----> *__________*/ 
+
+/*__________* <----- BOLD! -----> *__________*/
+
+/* BOLD = 'chatype-bold' */
+@font-face {
+    font-family: 'chatype-bold';
+    src: url('chatype-bold/chatype-bold-webfont.eot'); /* EOT */
+    src: url('chatype-bold/chatype-bold-webfont.woff') format('woff'), /* WOFF. */ 
+        url('chatype-bold/chatype-bold-webfont.ttf') format('truetype'), /* TRUETYPE. */
+        url('chatype-bold/chatype-bold.otf') format('opentype'); /* OPENTYPE. */
+    font-weight: 800; /* 800 = BOLD. */
+    font-style: normal;
+}
+
+/* BOLD ITALIC = 'chatype-bold-italic' */
+@font-face {
+    font-family: 'chatype-bold-italic';
+    src: url('chatype-bold/chatype-bold-italic-webfont.eot'); /* EOT. */
+    src: url('chatype-bold/chatype-bold-italic-webfont.woff') format('woff'), /* WOFF. */
+        url('chatype-bold/chatype-bold-italic-webfont.ttf') format('truetype'), /* TRUETYPE */
+        url('chatype-bold/chatype-bold-italic.otf') format('opentype'); /* OPENTYPE. */
+    font-weight: 800; /* 800 = BOLD. */
+    font-style: italic; /* ITALIC. */
+}
+
+.chatype-bold {
+    font-family: 'chatype-bold';
+    font-weight: 800; /* 800 = BOLD. */
+    font-style: normal;
+}
+
+.chatype-bold-italic {
+    font-family: 'chatype-bold-italic';
+    font-weight: 800; /* 800 = BOLD. */
+    font-style: italic; /* ITALIC. */
+}
+
+/*__________* <----- MEDIUM! -----> *__________*/
+
+/* MEDIUM = 'chatype-medium' */ 
+@font-face {
+    font-family: 'chatype-medium';
+    src: url('chatype-medium/chatype-medium-webfont.eot'); /* EOT. */
+    src: url('chatype-medium/chatype-medium-webfont.woff') format('woff'), /* WOFF. */
+        url('chatype-medium/chatype-medium-webfont.ttf') format('truetype'), /* TRUETYPE. */
+        url('chatype-medium/chatype-medium.otf') format('opentype'); /* OPENTYPE. */
+    font-weight: 600; /* 600 = MEDIUM. */
+    font-style: normal;
+}
+
+/* MEDIUM ITALIC = 'chatype-medium-italic' */
+@font-face {
+    font-family: 'chatype-medium-italic';
+    src: url('chatype-medium/chatype-medium-italic-webfont.eot'); /* EOT. */
+    src: url('chatype-medium/chatype-medium-italic-webfont.woff') format('woff'), /* WOFF. */
+        url('chatype-medium/chatype-medium-italic-webfont.ttf') format('truetype'), /* TRUETYPE. */
+        url('chatype-medium/chatype-medium-italic.otf') format('opentype'); /* OPENTYPE. */
+    font-weight: 600; /* 600 = MEDIUM. */
+    font-style: italic; /* ITALIC. */
+}
+
+/* MEDIUM = 'chatype-medium' */
+.chatype-medium {
+    font-family: 'chatype-medium';
+    font-weight: 600; /* 600 = MEDIUM. */
+    font-style: normal;
+}
+
+/* MEDIUM ITALIC = 'chatype-medium-italic' */
+.chatype-medium-italic {
+    font-family: 'chatype-medium-italic';
+    font-weight: 600; /* 600 = MEDIUM. */
+    font-style: italic; /* ITALIC. */
+}
+
+/*__________* <----- REGULAR! -----> *__________*/
+
+/* REGULAR = 'chatype-regular' */
+@font-face {
+    font-family: 'chatype-regular';
+    src: url('chatype-regular/chatype-regular-webfont.eot'); /* EOT. */
+    src: url('chatype-regular/chatype-regular-webfont.woff') format('woff'), /* WOFF. */
+        url('chatype-regular/chatype-regular-webfont.ttf') format('tyuetype'), /* TRUETYPE. */
+        url('chatype-regular/chatype-regular.otf') format('opentype'); /* OPENTYPE. */
+    font-weight: 400; /* 400 = REGULAR. */
+    font-style: normal;
+}
+
+/* REGULAR ITALIC = 'chatype-regular-italic' */
+@font-face {
+    font-family: 'chatype-regular-italic';
+    src: url('chatype-regular/chatype-regular-italic-webfont.eot'); /* EOT. */
+    src: url('chatype-regular/chatype-regular-italic-webfont.woff') format('woff'), /* WOFF. */
+        url('chatype-regular/chatype-regular-italic-webfont.ttf') format('truetype'), /* TRUETYPE. */
+        url('chatype-regular/chatype-regular-italic.otf') format('opentype'); /* OPENTYPE. */
+    font-weight: 400; /* 400 = REGULAR. */
+    font-style: italic; /* ITALIC. */
+}
+
+/* REGULAR = 'chatype-regular' */
+.chatype-regular {
+    font-family: 'chatype-regular';
+    font-weight: 400; /* 400 = REGULAR. */
+    font-style: normal;
+}
+
+/* REGULAR ITALIC = 'chatype-regular-italic' */
+.chatype-regular-italic {
+    font-family: 'chatype-regular-italic';
+    font-weight: 400; /* 400 = REGULAR. */
+    font-style: italic; /* ITALIC. */
+}
+
+/*__________* <----- THIN/LIGHT! -----> *__________*/
+
+/* THIN = 'chatype-thin' */
+@font-face {
+    font-family: 'chatype-thin';
+    src: url('chatype-thin/chatype-thin-webfont.eot'); /* EOT. */
+    src: url('chatype-thin/chatype-thin-webfont.woff') format('woff'), /* WOFF. */
+        url('chatype-thin/chatype-thin-webfont.ttf') format('truetype'), /* TRUETYPE. */
+        url('chatype-thin/chatype-thin.otf') format('opentype'); /* OPENTYPE. */
+    font-weight: 200; /* 200 = THIN. */
+    font-style: normal;
+}
+
+/* THIN ITALIC = 'chatype-thin-italic' */
+@font-face {
+    font-family: 'chatype-thin-italic';
+    src: url('chatype-thin/chatype-thin-italic.otf') format('opentype'); /* OPENTYPE. */
+    font-weight: 200; /* 200 = THIN. */
+    font-style: italic; /* ITALIC. */
+}
+
+/* THIN = 'chatype-thin' */
+.chatype-thin {
+    font-family: 'chatype-thin';
+    font-weight: 200; /* 200 = THIN. */
+    font-style: normal;
+}
+
+/* THIN ITALIC = 'chatype-thin-italic' */
+.chatype-thin-italic {
+    font-family: 'chatype-thin-italic';
+    font-weight: 200; /* 200 = THIN. */
+    font-style: italic; /* ITALIC. */
+}
