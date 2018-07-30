@@ -4,22 +4,25 @@ body {
     background-color: rgb(211, 211, 211);
 }
 
-.boxes {
-    display: inline-block;
+.container {
+    width: 100%;   
+}
 
-    /* MARGIN. */
+.boxes {
+    display: block;
+    position: relative;
+    width: 25%;
+
     margin-top: 1em;
     margin-right: 1em;
     margin-bottom: 1em;
     margin-left: 1em;
 
-    /* PADDING. */
     padding-top: 0.5em;
     padding-right: 0.5em;
     padding-bottom: 0.5em;
     padding-left: 0.5em;
 
-    /* BORDER. */
     border-width: 2px;
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.775);
@@ -30,13 +33,188 @@ h2, p, .readme-wrapper {
     text-align: center;
 }
 
+.readme-wrapper {
+    margin-bottom: 1em;
+}
+
+p {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 a {
-    text-decoration: none; /* Removes default underline text styling. */
+    text-decoration: none; 
     color: rgb(255, 255, 255);
 }
 
 a:hover {
     font-weight: 800;
-    color: rgb(218, 165, 32);
+    color:  rgb(0, 0, 0);
 }
 
+.p-text {
+    color: rgb(38, 42, 50);
+}
+
+#box1 {
+    background-color: rgba(125, 147, 138, 0.750);
+    position: relative;
+}
+
+#box2 {
+    background-color: rgba(236, 229, 212, 0.750);
+
+    top: 0%;
+    right: 0%;
+}
+
+#box3 {
+    background-color: rgba(224, 152, 145, 0.750);
+}
+
+#box4 {
+    background-color: rgba(88, 111, 124, 0.750);
+}
+
+h2 {
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+
+.box-image {
+    width: 2.50em;
+    height: 2.50em;
+
+    background-color: rgba(242, 242, 242, 0.875);
+    border-radius: 3px;
+
+    display: inline-block;
+    position: absolute;
+
+    margin: 1em;
+}
+
+.list-border {
+    width: 25%;
+
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.725);
+    border-radius: 6px;
+}
+
+h1 {
+    color: rgb(38, 42, 50);
+
+    margin-left: 0.5em;
+}
+
+.top-tv {
+    color: rgb(132, 143, 165);
+}
+
+.btm-tv {
+    color: rgb(51, 92, 129);
+}
+
+#show1 {
+    color: rgb(115, 99, 114);
+}
+
+#show2 {
+    color: rgb(56, 104, 106);
+}
+
+#show3 {
+    color: rgb(161, 130, 118);
+}
+
+#show4 {
+    color: rgb(43, 61, 65);
+}
+
+#show5 {
+    color: rgb(186, 68, 94);
+}
+
+.friends {
+    color: ;
+}
+
+#friend1 {
+    color: ;
+}
+
+#friend2 {
+    color: ;
+}
+
+#friend3 {
+    color: ;
+}
+
+#friend4 {
+    color: ;
+}
+
+#friend5 {
+    color: ;
+}
+
+.places {
+    color: ;
+}
+
+#place1 {
+    color: ;
+}
+
+#place2 {
+    color: ;
+}
+
+#places3 {
+    color: ;
+}
+
+#places4 {
+    color: ;
+}
+
+#places5 {
+    color: ;
+}
+
+.restaurants {
+    color: ;
+}
+
+#restaurant1 {
+    color: ;
+}
+
+#restaurant2 {
+    color: ;
+}
+
+#restaurant3 {
+    color: ;
+}
+
+#restaurant4 {
+    color: ;
+}
+
+#restaurant5 {
+    color: ;
+}
