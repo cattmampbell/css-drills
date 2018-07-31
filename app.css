@@ -5,7 +5,8 @@ body {
 }
 
 .container {
-    width: 100%;   
+    height: 100vh;
+    width: 100vw;   
 }
 
 .boxes {
@@ -97,9 +98,9 @@ h2 {
 .list-border {
     width: 25%;
 
-    margin-top: 1em;
+    margin-top: 0em;
     margin-right: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
     margin-left: 1em;
 
     padding-top: 0.5em;
@@ -109,7 +110,7 @@ h2 {
 
     border-width: 2px;
     border-style: solid;
-    border-color: rgba(0, 0, 0, 0.725);
+    border-color: rgba(0, 0, 0, 0.775);
     border-radius: 6px;
 }
 
@@ -148,73 +149,73 @@ h1 {
 }
 
 .friends {
-    color: ;
+    color: rgb(157, 92, 99);
 }
 
 #friend1 {
-    color: ;
+    color: rgb(162, 197, 172);
 }
 
 #friend2 {
-    color: ;
+    color: rgb(127, 106, 147);
 }
 
 #friend3 {
-    color: ;
+    color: rgb(82, 91, 118);
 }
 
 #friend4 {
-    color: ;
+    color: rgb(66, 75, 84);
 }
 
 #friend5 {
-    color: ;
+    color: rgb(239, 111, 108);
 }
 
 .places {
-    color: ;
+    color: rgb(46, 41, 78);
 }
 
 #place1 {
-    color: ;
+    color: rgb(157, 180, 171);
 }
 
 #place2 {
-    color: ;
+    color: rgb(75, 74, 103);
 }
 
-#places3 {
-    color: ;
+#place3 {
+    color: rgb(53, 129, 184);
 }
 
-#places4 {
-    color: ;
+#place4 {
+    color: rgb(252, 176, 126);
 }
 
-#places5 {
-    color: ;
+#place5 {
+    color: rgb(172, 128, 160);
 }
 
 .restaurants {
-    color: ;
+    color:  rgb(212, 180, 131);
 }
 
 #restaurant1 {
-    color: ;
+    color: rgb(13, 50, 77);
 }
 
 #restaurant2 {
-    color: ;
+    color: rgb(174, 135, 153);
 }
 
 #restaurant3 {
-    color: ;
+    color: rgb(221, 167, 123);
 }
 
 #restaurant4 {
-    color: ;
+    color: rgb(201, 93, 99);
 }
 
 #restaurant5 {
-    color: ;
+    color: rgb(99, 160, 136);
 }
