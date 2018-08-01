@@ -1,7 +1,7 @@
 body {
     font-family: 'chatype-regular';
 
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(217, 226, 232, 0.775);
 }
 
 .container {
@@ -58,28 +58,32 @@ a:hover {
 }
 
 #box1 {
-    background-color: rgba(125, 147, 138, 0.750);
+    background-color: rgb(220, 232, 247, 0.875);
     position: relative;
 }
 
 #box2 {
-    background-color: rgba(236, 229, 212, 0.750);
+    background-color: rgba(211, 225, 255, 0.875);
 
     top: 0%;
     right: 0%;
 }
 
 #box3 {
-    background-color: rgba(224, 152, 145, 0.750);
+    background-color: rgb(182, 196, 221, 0.875);
 }
 
 #box4 {
-    background-color: rgba(88, 111, 124, 0.750);
+    background-color: rgb(150, 162, 187, 0.875);
 }
 
 h2 {
-    margin-top: 1em;
-    margin-bottom: 0em;
+    margin: 0 auto;
+    display: inline-block;
+
+    margin-left: 0.5em;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
 }
 
 .box-image {
@@ -90,9 +94,14 @@ h2 {
     border-radius: 3px;
 
     display: inline-block;
-    position: absolute;
 
-    margin: 1em;
+    /* margin-top: 0.5em; */
+    /* margin-right: 1em; */
+}
+
+.title-center {
+    text-align: center;
+    margin-top: 0.5em;
 }
 
 .list-border {
@@ -129,23 +138,23 @@ h1 {
 }
 
 #show1 {
-    color: rgb(115, 99, 114);
+    color: #1C1E22;
 }
 
 #show2 {
-    color: rgb(56, 104, 106);
+    color: #292D33;
 }
 
 #show3 {
-    color: rgb(161, 130, 118);
+    color: #373B44;
 }
 
 #show4 {
-    color: rgb(43, 61, 65);
+    color: #454A55;
 }
 
 #show5 {
-    color: rgb(186, 68, 94);
+    color: #525966;
 }
 
 .friends {
@@ -153,23 +162,23 @@ h1 {
 }
 
 #friend1 {
-    color: rgb(162, 197, 172);
+    color: #222429;
 }
 
 #friend2 {
-    color: rgb(127, 106, 147);
+    color: #32363D;
 }
 
 #friend3 {
-    color: rgb(82, 91, 118);
+    color: #434851;
 }
 
 #friend4 {
-    color: rgb(66, 75, 84);
+    color: #535A65;
 }
 
 #friend5 {
-    color: rgb(239, 111, 108);
+    color: #646B79;
 }
 
 .places {
@@ -177,23 +186,23 @@ h1 {
 }
 
 #place1 {
-    color: rgb(157, 180, 171);
+    color: #27292F;
 }
 
 #place2 {
-    color: rgb(75, 74, 103);
+    color: #3A3E46;
 }
 
 #place3 {
-    color: rgb(53, 129, 184);
+    color: #4D525D;
 }
 
 #place4 {
-    color: rgb(252, 176, 126);
+    color: #606774;
 }
 
 #place5 {
-    color: rgb(172, 128, 160);
+    color: #747B8C;
 }
 
 .restaurants {
@@ -201,21 +210,21 @@ h1 {
 }
 
 #restaurant1 {
-    color: rgb(13, 50, 77);
+    color: #282B2D;
 }
 
 #restaurant2 {
-    color: rgb(174, 135, 153);
+    color: #3C4044;
 }
 
 #restaurant3 {
-    color: rgb(221, 167, 123);
+    color: #50555A;
 }
 
 #restaurant4 {
-    color: rgb(201, 93, 99);
+    color: #646A71;
 }
 
 #restaurant5 {
-    color: rgb(99, 160, 136);
+    color: #787F87;
 }
